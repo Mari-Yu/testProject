@@ -13,6 +13,8 @@
 		CEA11EE9255E790B0084392B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA11EE7255E790B0084392B /* Main.storyboard */; };
 		CEA11EEB255E790D0084392B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA11EEA255E790D0084392B /* Assets.xcassets */; };
 		CEA11EEE255E790D0084392B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA11EEC255E790D0084392B /* LaunchScreen.storyboard */; };
+		CEA11EF7255E7D310084392B /* CustomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA11EF6255E7D310084392B /* CustomHeaderView.swift */; };
+		CEA11EFA255E7D570084392B /* CustomHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA11EF9255E7D570084392B /* CustomHeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CEA11EEA255E790D0084392B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEA11EED255E790D0084392B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEA11EEF255E790D0084392B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA11EF6255E7D310084392B /* CustomHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeaderView.swift; sourceTree = "<group>"; };
+		CEA11EF9255E7D570084392B /* CustomHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomHeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				CEA11EE3255E790B0084392B /* SceneDelegate.swift */,
 				CEA11EE5255E790B0084392B /* ViewController.swift */,
 				CEA11EE7255E790B0084392B /* Main.storyboard */,
+				CEA11EF6255E7D310084392B /* CustomHeaderView.swift */,
+				CEA11EF9255E7D570084392B /* CustomHeaderView.xib */,
 				CEA11EEA255E790D0084392B /* Assets.xcassets */,
 				CEA11EEC255E790D0084392B /* LaunchScreen.storyboard */,
 				CEA11EEF255E790D0084392B /* Info.plist */,
@@ -124,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA11EFA255E7D570084392B /* CustomHeaderView.xib in Resources */,
 				CEA11EEE255E790D0084392B /* LaunchScreen.storyboard in Resources */,
 				CEA11EEB255E790D0084392B /* Assets.xcassets in Resources */,
 				CEA11EE9255E790B0084392B /* Main.storyboard in Resources */,
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA11EF7255E7D310084392B /* CustomHeaderView.swift in Sources */,
 				CEA11EE6255E790B0084392B /* ViewController.swift in Sources */,
 				CEA11EE2255E790B0084392B /* AppDelegate.swift in Sources */,
 				CEA11EE4255E790B0084392B /* SceneDelegate.swift in Sources */,
